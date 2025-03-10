@@ -26,4 +26,16 @@ describe('ISAAC PRNG', function() {
         const randomFloat = combined / 2 ** 53;
         assert.ok(randomFloat >= 0 && randomFloat < 1);
     });
+
+    it('should generate 512 random integer', function() {
+        let checkResult = true;
+        for (let i = 0; i < 512; i++) {
+            const randomInt = isaac.random();
+            checkResult = Number.isInteger(randomInt);
+            if (!checkResult) {
+                break;
+            }
+        }
+        assert.ok(checkResult);
+    });
 });
