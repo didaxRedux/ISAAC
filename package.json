@@ -1,0 +1,28 @@
+{
+  "name": "isaac-prng",
+  "version": "1.0.0",
+  "description": "ISAAC (Indirection, Shift, Accumulate, Add, Count) pseudo-random number generator.",
+  "main": "lib/ISAAC.js",
+  "scripts": {
+    "test": "node test/ISAAC.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didaxRedux/isaac-prng.git"
+  },
+  "keywords": [
+    "isaac",
+    "prng",
+    "random",
+    "number",
+    "generator"
+  ],
+  "author": "Davide Renzi <davide.renzi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1"
+  },
+  "devDependencies": {
+    "mocha": "^9"
+  }
+}
