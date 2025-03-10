@@ -4,7 +4,7 @@
   "description": "ISAAC (Indirection, Shift, Accumulate, Add, Count) pseudo-random number generator.",
   "main": "lib/ISAAC.js",
   "scripts": {
-    "test": "node test/ISAAC.test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
     "crypto": "^1"
   },
   "devDependencies": {
-    "mocha": "^9"
+    "mocha": "^11"
   }
 }
