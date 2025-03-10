@@ -1,5 +1,5 @@
 {
-  "name": "isaac-prng",
+  "name": "isaac-js",
   "version": "1.0.0",
   "description": "ISAAC (Indirection, Shift, Accumulate, Add, Count) pseudo-random number generator.",
   "main": "lib/ISAAC.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didaxRedux/isaac-prng.git"
+    "url": "git+https://github.com/didaxRedux/isaac-js.git"
   },
   "keywords": [
     "isaac",
