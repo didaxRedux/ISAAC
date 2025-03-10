@@ -44,6 +44,16 @@ console.log('Random 53-bit float between 0 and 1 (exclusive):', randomFloat);
 
 ## API
 
+### `seed(seedInput)`
+
+Initializes the internal state using the provided seed.\
+If no seed is provided, it initializes with a default value.
+
+- `seedInput` (optional): A positive number or an array of positive numbers.
+
+> [!IMPORTANT]
+> To ensure an additional level of security, it is advisable to invoke this method at regular intervals (for example after 1 hour) or after a pre-set number of extractions.
+
 ### `random(iterations = 1)`
 
 Generates a 32-bit random integer number.
@@ -58,13 +68,6 @@ Generates a 32-bit random integer number.
 > Populates the internal buffer with pseudo-random values.
 >
 > - `iterations` (optional): A positive integer specifying the number of iterations for the pseudo-random number generation (PRNG) process. Defaults to 1.
->
-> ### `seed(seedInput)`
->
-> Initializes the internal state using the provided seed.\
-> If no seed is provided, it initializes with a default value.
->
-> - `seedInput` (optional): A positive number or an array of positive numbers.
 >
 > ### `reset()`
 >
