@@ -1,8 +1,9 @@
 # ISAAC PRNG
 
-ISAAC (Indirection, Shift, Accumulate, Add, Count) is a pseudo-random number generator designed for speed and encryption suitability.
+ISAAC (Indirection, Shift, Accumulate, Add, Count) is a pseudorandom number generator (PRNG) specifically designed to deliver high performance while maintaining suitability for cryptographic applications.
 
-The ISAAC algorithm was designed by Robert J. Jenkins Jr. in 1993, and this Node.js implementation is based on his official C implementation (https://www.burtleburtle.net/bob/rand/isaacafa.html).
+Developed by Robert J. Jenkins Jr. in 1993, the ISAAC algorithm is renowned for its efficiency and robustness.\
+This Node.js implementation is a direct adaptation of Jenkins' original C implementation, which can be found in his official documentation at https://www.burtleburtle.net/bob/rand/isaacafa.html. The implementation faithfully preserves the core principles and functionality of the algorithm, ensuring both speed and reliability in generating pseudorandom numbers.
 
 ## Installation
 
