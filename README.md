@@ -8,13 +8,13 @@ This Node.js implementation is a direct adaptation of Jenkins' original C implem
 ## Installation
 
 ```bash
-npm install isaac-prng
+npm install isaac-js
 ```
 
 ## Usage
 
 ```javascript
-const ISAAC = require('isaac-prng');
+const ISAAC = require('isaac-js');
 
 const isaac = new ISAAC();
 
